@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-    base: "/sman96-disability"
+    base: "/sman96-denah"
 
 })
