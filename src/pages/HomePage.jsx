@@ -11,46 +11,100 @@ function HomePage({ onNavigate }) {
 
   const locations = [
     {
-      id: 'kelas-xipa1',
-      name: 'Kelas XI IPA 1',
+      id: 'kelas-lt1',
+      lantai: '1',
+      name: 'Kelas lantai1',
       icon: '🏫',
       color: '#3b82f6',
-      description: 'Navigasi ke kelas XI IPA 1'
+      description: 'Navigasi ke kelas lantai 1'
     },
     {
-      id: 'kelas-xipa2',
-      name: 'Kelas XI IPA 2',
+      id: 'kelas-lt2',
+      lantai: '2',
+      name: 'Kelas lantai 2',
       icon: '🏫',
       color: '#3b82f6',
-      description: 'Navigasi ke kelas XI IPA 2'
+      description: 'Navigasi ke kelas lantai 2'
     },
     {
-      id: 'toilet-disabel',
-      name: 'Toilet Disabel',
-      icon: '♿',
+      id: 'kelas-lt3',
+      lantai: '3',
+      name: 'Kelas lantai 3',
+      icon: '🏫',
       color: '#3b82f6',
-      description: 'Navigasi ke toilet yang accessible'
+      description: 'Navigasi ke kelas lantai 3'
+    },
+    {
+      id: 'ruang-piket',
+      lantai: 'dasar',
+      name: 'Ruang Piket',
+      icon: '🏢',
+      color: '#3b82f6',
+      description: 'Navigasi ke ruang piket'
     },
     {
       id: 'perpustakaan',
+      lantai: '3',
       name: 'Perpustakaan',
       icon: '📚',
       color: '#22c55e',
       description: 'Navigasi ke ruang perpustakaan'
     },
     {
-      id: 'laboratorium',
-      name: 'Laboratorium',
-      icon: '🧪',
+      id: 'laboratorium_fisika',
+      lantai: '1',
+      name: 'Laboratorium Fisika',
+      icon: '🔬',
       color: '#22c55e',
-      description: 'Navigasi ke laboratorium sekolah'
+      description: 'Navigasi ke laboratorium fisika'
     },
     {
-      id: 'uks',
-      name: 'UKS',
-      icon: '🏥',
+      id: 'laboratorium_kimia',
+      lantai: '1',
+      name: 'Laboratorium Kimia',
+      icon: '🧪',
       color: '#22c55e',
-      description: 'Navigasi ke unit kesehatan sekolah'
+      description: 'Navigasi ke laboratorium kimia'
+    },
+    {
+      id: 'laboratorium_komputer',
+      lantai: '1',
+      name: 'Laboratorium Komputer',
+      icon: '💻',
+      color: '#22c55e',
+      description: 'Navigasi ke laboratorium komputer'
+    },
+    {
+      id: 'laboratorium_biologi',
+      lantai: '1',
+      name: 'Laboratorium Biologi',
+      icon: '🧬',
+      color: '#22c55e',
+      description: 'Navigasi ke laboratorium Biologi'
+    },
+    {
+      id: 'selasar_tangga',
+      lantai: 'dasar',
+      name: 'Selasar Tangga',
+      icon: '🏢',
+      color: '#22c55e',
+      description: 'Navigasi ke selasar tangga untuk akses ke lantai atas'
+    },
+    {
+      id: "ruang_osis",
+      lantai: '2',
+      name: "Ruang OSIS",
+      icon: "🏢",
+      color: '#c52252',
+      description: 'Navigasi ke ruang OSIS'
+    },
+    {
+      id: "ruang_ekskul",
+      lantai: '2',
+      name: "Ruang Ekstrakurikuler",
+      icon: "🏢",
+      color: '#c52252',
+      description: 'Navigasi ke ruang ekstrakurikuler'
     }
   ];
 

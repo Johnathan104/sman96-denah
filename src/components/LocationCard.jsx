@@ -23,6 +23,7 @@ function LocationCard({ location, index, isHovered, onHover, onLeave, onNavigate
         </div>
         
         <div className="card-text">
+          <div className="card-lantai">Lantai {location.lantai}</div>
           <h3 className="card-title">{location.name}</h3>
           <p className="card-description">{location.description}</p>
         </div>

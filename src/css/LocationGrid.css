@@ -56,6 +56,28 @@
   line-height: 1.6;
 }
 
+.lantai-section {
+  margin-bottom: 2.5rem;
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+.lantai-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.lantai-title {
+  margin: 0;
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.3px;
+}
+
 /* Responsive design */
 @media (max-width: 1024px) {
   .locations-grid {

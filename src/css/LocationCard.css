@@ -77,6 +77,25 @@
   gap: 0.5rem;
 }
 
+.card-lantai {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--card-color);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.25rem 0.75rem;
+  background: rgba(59, 130, 246, 0.1);
+  border-radius: 6px;
+  display: inline-flex;
+  width: fit-content;
+  transition: var(--transition);
+}
+
+.location-card:hover .card-lantai {
+  background: rgba(59, 130, 246, 0.2);
+  color: var(--card-color);
+}
+
 .card-title {
   margin: 0;
   font-size: 1.125rem;

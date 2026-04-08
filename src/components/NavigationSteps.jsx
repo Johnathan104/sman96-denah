@@ -57,7 +57,7 @@ function NavigationSteps({ steps, time, features }) {
         </div>
       </div>
 
-      <div className="action-buttons">
+      {/* <div className="action-buttons">
         <button className="btn btn-primary">
           <span className="btn-icon">🗺️</span>
           <span className="btn-text">Mulai Navigasi</span>
@@ -66,7 +66,7 @@ function NavigationSteps({ steps, time, features }) {
           <span className="btn-icon">📱</span>
           <span className="btn-text">Bagikan QR Code</span>
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
