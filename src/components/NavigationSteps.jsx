@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../css/NavigationSteps.css';
+import { Clock, Volume2, CheckCircle2, Map, Smartphone } from 'lucide-react';
 
 function NavigationSteps({ steps, time, features }) {
   const [playingAudio, setPlayingAudio] = useState(false);
@@ -16,7 +17,7 @@ function NavigationSteps({ steps, time, features }) {
           <h3 className="steps-title">Langkah Navigasi</h3>
           <div className="steps-meta">
             <span className="meta-item">
-              <span className="meta-icon">⏱️</span>
+              <span className="meta-icon"><Clock size={18} style={{display: 'inline'}} /></span>
               <span className="meta-text">Waktu tempuh: <strong>{time}</strong></span>
             </span>
           </div>
@@ -26,7 +27,7 @@ function NavigationSteps({ steps, time, features }) {
           onClick={handlePlayAudio}
           aria-label="Putar panduan suara"
         >
-          <span className="audio-icon">🔊</span>
+          <span className="audio-icon"><Volume2 size={20} style={{display: 'inline'}} /></span>
           <span className="audio-text">Putar Panduan Suara</span>
         </button>
       </div>
@@ -46,11 +47,11 @@ function NavigationSteps({ steps, time, features }) {
       </div>
 
       <div className="features-section">
-        <h4 className="features-title">✅ Fitur Aksesibilitas</h4>
+        <h4 className="features-title"><CheckCircle2 size={20} className="inline mr-2" style={{verticalAlign: 'middle'}} /> Fitur Aksesibilitas</h4>
         <div className="features-grid">
           {features.map((feature, index) => (
             <div key={index} className="feature-badge" style={{ '--feature-delay': `${index * 0.1}s` }}>
-              <span className="feature-check">✓</span>
+              <span className="feature-check"><CheckCircle2 size={18} style={{display: 'inline'}} /></span>
               <span className="feature-text">{feature}</span>
             </div>
           ))}
@@ -59,11 +60,11 @@ function NavigationSteps({ steps, time, features }) {
 
       {/* <div className="action-buttons">
         <button className="btn btn-primary">
-          <span className="btn-icon">🗺️</span>
+          <span className="btn-icon"><Map size={20} style={{display: 'inline'}} /></span>
           <span className="btn-text">Mulai Navigasi</span>
         </button>
         <button className="btn btn-secondary">
-          <span className="btn-icon">📱</span>
+          <span className="btn-icon"><Smartphone size={20} style={{display: 'inline'}} /></span>
           <span className="btn-text">Bagikan QR Code</span>
         </button>
       </div> */}

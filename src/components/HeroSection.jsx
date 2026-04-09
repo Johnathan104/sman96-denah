@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/HeroSection.css';
+import { Map } from 'lucide-react';
 
 function HeroSection() {
   return (
@@ -18,7 +19,7 @@ function HeroSection() {
           </p>
           <a href="#locations">
             <button className="hero-cta"  >
-                <span className="cta-icon">🗺️</span>
+                <span className="cta-icon"><Map size={24} /></span>
                 <span className="cta-text">MULAI NAVIGASI</span>
             </button>
           </a>
