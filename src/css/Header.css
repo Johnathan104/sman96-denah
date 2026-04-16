@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  background: linear-gradient(160deg,  #ffffff 20%, #72c6ed 100%);
   color: white;
   padding: 2rem 0;
   box-shadow: var(--shadow-lg);
@@ -9,6 +9,16 @@
   animation: slideDown 0.5s ease-out;
 }
 
+.voice-modal-overlay {
+  z-index: 1000; /* Always on top */
+}
+.voice-modal{
+  padding:1rem;
+  background: linear-gradient(160deg,  #ffffff 20%, #72c6ed 100%);
+}
+.mic-button{
+  background: rgb(38, 57, 101);
+}
 @keyframes slideDown {
   from {
     transform: translateY(-100%);
@@ -92,7 +102,8 @@
   border-radius: 8px;
   font-size: 0.875rem;
   font-weight: 600;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  color:#444474;
+  border: 1px solid #444474;
   transition: var(--transition);
   white-space: nowrap;
 }

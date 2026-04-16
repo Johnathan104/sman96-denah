@@ -12,7 +12,7 @@
   margin: 0 auto;
   position: relative;
   padding:1rem;
-   background-image: linear-gradient(to right, rgba(21, 31, 117,0.9), rgba(93, 177, 186,0.6));
+   background-image: linear-gradient(to right, rgba(193, 218, 244, 0.9), rgba(93, 177, 186,0.6));
   z-index: 2;
   animation: fadeInUp 0.7s ease-out;
   

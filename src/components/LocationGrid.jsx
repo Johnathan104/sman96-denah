@@ -24,7 +24,7 @@ function LocationGrid({ locations, onNavigate }) {
         <div className="section-header">
           <h2 className="section-title">Pilih Lokasi Tujuan</h2>
           <p className="section-description">
-            Pilih lokasi yang ingin Anda navigasi untuk mendapatkan panduan langkah demi langkah
+            Pilih tujuanmu untuk mulai navigasi 
           </p>
         </div>
 

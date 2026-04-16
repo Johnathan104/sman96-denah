@@ -1,0 +1,216 @@
+{
+  "project": "Smart Accessibility Navigation - SMAN 96 Jakarta",
+  "created_files": {
+    "dasar_pintu_masuk": {
+      "name": "Pintu Masuk",
+      "floor": "Lantai Dasar",
+      "audio_file": "dasar_pintu_masuk.mp3",
+      "steps": 1
+    },
+    "dasar_meja_piket": {
+      "name": "Meja Piket Guru",
+      "floor": "Lantai Dasar",
+      "audio_file": "dasar_meja_piket.mp3",
+      "steps": 3
+    },
+    "dasar_lift": {
+      "name": "Lift menuju Lt.1, Lt.2, dan Lt.3",
+      "floor": "Lantai Dasar",
+      "audio_file": "dasar_lift.mp3",
+      "steps": 5
+    },
+    "dasar_kelas_a": {
+      "name": "Ruang Kelas A",
+      "floor": "Lantai Dasar",
+      "audio_file": "dasar_kelas_a.mp3",
+      "steps": 4
+    },
+    "dasar_kelas_b": {
+      "name": "Ruang Kelas B",
+      "floor": "Lantai Dasar",
+      "audio_file": "dasar_kelas_b.mp3",
+      "steps": 4
+    },
+    "lt1_lift": {
+      "name": "Lift Lt.1",
+      "floor": "Lantai 1",
+      "audio_file": "lt1_lift.mp3",
+      "steps": 2
+    },
+    "lt1_kelas_c": {
+      "name": "Ruang Kelas C",
+      "floor": "Lantai 1",
+      "audio_file": "lt1_kelas_c.mp3",
+      "steps": 3
+    },
+    "lt1_kelas_d": {
+      "name": "Ruang Kelas D",
+      "floor": "Lantai 1",
+      "audio_file": "lt1_kelas_d.mp3",
+      "steps": 3
+    },
+    "lt1_kelas_e": {
+      "name": "Ruang Kelas E",
+      "floor": "Lantai 1",
+      "audio_file": "lt1_kelas_e.mp3",
+      "steps": 3
+    },
+    "lt1_lab_kimia": {
+      "name": "Lab Kimia",
+      "floor": "Lantai 1",
+      "audio_file": "lt1_lab_kimia.mp3",
+      "steps": 3
+    },
+    "lt1_lab_biologi": {
+      "name": "Lab Biologi",
+      "floor": "Lantai 1",
+      "audio_file": "lt1_lab_biologi.mp3",
+      "steps": 3
+    },
+    "lt1_lab_fisika": {
+      "name": "Lab Fisika",
+      "floor": "Lantai 1",
+      "audio_file": "lt1_lab_fisika.mp3",
+      "steps": 3
+    },
+    "lt1_lab_komputer": {
+      "name": "Lab Komputer",
+      "floor": "Lantai 1",
+      "audio_file": "lt1_lab_komputer.mp3",
+      "steps": 3
+    },
+    "lt1_toilet_disabilitas": {
+      "name": "Toilet Disabilitas",
+      "floor": "Lantai 1",
+      "audio_file": "lt1_toilet_disabilitas.mp3",
+      "steps": 3
+    },
+    "lt2_lift": {
+      "name": "Lift Lt.2",
+      "floor": "Lantai 2",
+      "audio_file": "lt2_lift.mp3",
+      "steps": 2
+    },
+    "lt2_kelas_f": {
+      "name": "Ruang Kelas F",
+      "floor": "Lantai 2",
+      "audio_file": "lt2_kelas_f.mp3",
+      "steps": 3
+    },
+    "lt2_kelas_g": {
+      "name": "Ruang Kelas G",
+      "floor": "Lantai 2",
+      "audio_file": "lt2_kelas_g.mp3",
+      "steps": 3
+    },
+    "lt2_kelas_h": {
+      "name": "Ruang Kelas H",
+      "floor": "Lantai 2",
+      "audio_file": "lt2_kelas_h.mp3",
+      "steps": 3
+    },
+    "lt2_kelas_i": {
+      "name": "Ruang Kelas I",
+      "floor": "Lantai 2",
+      "audio_file": "lt2_kelas_i.mp3",
+      "steps": 3
+    },
+    "lt2_kelas_j": {
+      "name": "Ruang Kelas J",
+      "floor": "Lantai 2",
+      "audio_file": "lt2_kelas_j.mp3",
+      "steps": 3
+    },
+    "lt2_kelas_k": {
+      "name": "Ruang Kelas K",
+      "floor": "Lantai 2",
+      "audio_file": "lt2_kelas_k.mp3",
+      "steps": 3
+    },
+    "lt2_kelas_l": {
+      "name": "Ruang Kelas L",
+      "floor": "Lantai 2",
+      "audio_file": "lt2_kelas_l.mp3",
+      "steps": 3
+    },
+    "lt2_toilet_disabilitas": {
+      "name": "Toilet Disabilitas",
+      "floor": "Lantai 2",
+      "audio_file": "lt2_toilet_disabilitas.mp3",
+      "steps": 3
+    },
+    "lt2_ruang_ekskul": {
+      "name": "Ruang Ekstrakurikuler",
+      "floor": "Lantai 2",
+      "audio_file": "lt2_ruang_ekskul.mp3",
+      "steps": 3
+    },
+    "lt2_ruang_osis": {
+      "name": "Ruang OSIS",
+      "floor": "Lantai 2",
+      "audio_file": "lt2_ruang_osis.mp3",
+      "steps": 3
+    },
+    "lt3_lift": {
+      "name": "Lift Lt.3",
+      "floor": "Lantai 3",
+      "audio_file": "lt3_lift.mp3",
+      "steps": 2
+    },
+    "lt3_kelas_m": {
+      "name": "Ruang Kelas M",
+      "floor": "Lantai 3",
+      "audio_file": "lt3_kelas_m.mp3",
+      "steps": 3
+    },
+    "lt3_kelas_n": {
+      "name": "Ruang Kelas N",
+      "floor": "Lantai 3",
+      "audio_file": "lt3_kelas_n.mp3",
+      "steps": 3
+    },
+    "lt3_kelas_o": {
+      "name": "Ruang Kelas O",
+      "floor": "Lantai 3",
+      "audio_file": "lt3_kelas_o.mp3",
+      "steps": 3
+    },
+    "lt3_kelas_p": {
+      "name": "Ruang Kelas P",
+      "floor": "Lantai 3",
+      "audio_file": "lt3_kelas_p.mp3",
+      "steps": 3
+    },
+    "lt3_kelas_q": {
+      "name": "Ruang Kelas Q",
+      "floor": "Lantai 3",
+      "audio_file": "lt3_kelas_q.mp3",
+      "steps": 3
+    },
+    "lt3_kelas_r": {
+      "name": "Ruang Kelas R",
+      "floor": "Lantai 3",
+      "audio_file": "lt3_kelas_r.mp3",
+      "steps": 3
+    },
+    "lt3_kelas_s": {
+      "name": "Ruang Kelas S",
+      "floor": "Lantai 3",
+      "audio_file": "lt3_kelas_s.mp3",
+      "steps": 3
+    },
+    "lt3_toilet_disabilitas": {
+      "name": "Toilet Disabilitas",
+      "floor": "Lantai 3",
+      "audio_file": "lt3_toilet_disabilitas.mp3",
+      "steps": 3
+    },
+    "lt3_perpustakaan": {
+      "name": "Ruang Perpustakaan",
+      "floor": "Lantai 3",
+      "audio_file": "lt3_perpustakaan.mp3",
+      "steps": 3
+    }
+  },
+  "total_audio_files": 35
+}
