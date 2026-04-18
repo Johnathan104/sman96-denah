@@ -194,7 +194,7 @@ function VoiceAssistanceModal({ isOpen, onClose }) {
       const formData = new FormData();
       formData.append('audio', audioBlob, 'audio.wav');
 
-      const response = await fetch('https://jmse.pythonanywhere.com/recognize', {
+      const response = await fetch('https://sma96Accessa.pythonanywhere.com/recognize', {
         method: 'POST',
         body: formData
       });
